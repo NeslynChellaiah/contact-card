@@ -2,14 +2,16 @@ body {
     width: 100vw;
     height: 100vh;
     /* background: linear-gradient(180deg, #ff008c 0%, rgb(211, 9, 225) 100%); */
-    background-color: #eafc86;
+    background-color: #2C394B;
     overflow: hidden;
     padding: 0;
+    margin: 0;
   }
   
   .picture-container div {
     /* background: #BB86FC; */
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxoB1dyx7YCLsqN9TB7jm-LMBAXERoujDe5Q&usqp=CAU);
+    border: 1px solid #FF4C29;
     background-size: cover;
     border-radius: 30px;
     width: 250px;
@@ -29,7 +31,7 @@ body {
   }
 
   .contactList-container button {
-    background: #03DAC6;
+    background: #FF4C29;
     border: 0;
     border-radius: 50%;
     width: 45px;
